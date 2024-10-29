@@ -2,7 +2,7 @@
   "name": "portafolio_web",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
@@ -13,7 +13,8 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1"
   },
   "devDependencies": {
     "demon": "^0.0.1",
